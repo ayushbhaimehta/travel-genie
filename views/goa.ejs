@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn:400,400i,600,700,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Goa</title>
+
+
+
+</head>
+
+<body>
+  <div id="mapid"></div>
+
+  <%- include("partials/nav"); -%>
+
+    <section class="section-bg">
+      <div class="bigdaddy">
+        <div class="container  " style="display: flex;">
+          <div class="goa1">
+            <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Goa,India+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">ship tracker</a></iframe></div>
+  
+          </div>
+          <div class="goa2">
+            <iframe id="wiki" style="width: 600px; height: 100%;"
+              src="https://en.wikipedia.org/wiki/goa"></iframe>
+  
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+
+    <%- include("partials/footer"); -%>
+
+      </div>
+      <script src="script.js"></script>
+</body>
+
+</html>

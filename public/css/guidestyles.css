@@ -1,0 +1,27 @@
+.Tour-guide-tile{
+    background: linear-gradient(rgba(18, 113, 255, 0.5), rgba(18, 113, 255, 0.3)),
+    url(../images/navbar-bg.jpg) center no-repeat;    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.Tour-guide-image{
+    width:300px;
+    height: 300px;
+}
+.Tour-Guide_details{
+    padding: 10px;
+}
+h2{
+    font-size: 50px;
+
+}
+h4{
+    font-size: 24px;
+}
+p{
+    font-size: large;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
